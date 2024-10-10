@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "async-demo",
+    "at-bind",
+    "cow",
+    "dynamic-dispatch",
+    "if-let",
+    "into-try-into",
+    "map",
+    "partial-eq",
+    "pointer",
+    "rc",
+    "refcell",
+    "try-from",
+]
