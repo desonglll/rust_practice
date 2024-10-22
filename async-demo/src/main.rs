@@ -34,12 +34,13 @@ impl Future for Point {
         }
     }
 }
-
+#[allow(clippy::needless_return)]
 #[tokio::main]
-async fn main() {
+async fn main() -> Result<(), std::io::Error> {
     let future = Point {
         x: Arc::new(Mutex::new(2)),
     };
     let result = future.await;
     println!("Result: {}", result);
+    Ok(())
 }

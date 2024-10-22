@@ -1,3 +1,14 @@
+// #[inline]
+// #[stable(feature = "rust1", since = "1.0.0")]
+// pub fn map<U, F>(self, f: F) -> Option<U>
+// where
+//     F: FnOnce(T) -> U,
+// {
+//     match self {
+//         Some(x) => Some(f(x)),
+//         None => None,
+//     }
+// }
 fn main() {
     let person = init_vec().unwrap();
     let name = get_name(person, 1)
