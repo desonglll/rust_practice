@@ -7,3 +7,4 @@ edition = "2021"
 crossbeam = "0.8.4"
 image = { version = "0.25.4", features = ["png"] }
 num = "0.4.3"
+num_cpus = "1.16.0"
