@@ -31,7 +31,7 @@ fn get_point(is: bool) -> Result<Point, MyError> {
     }
 }
 
-fn main() {
+pub fn main() {
     let a = 10;
     println!("a: {}", a);
     let mut binding = get_point(true);

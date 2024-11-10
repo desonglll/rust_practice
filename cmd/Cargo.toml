@@ -1,5 +1,5 @@
 [package]
-name = "as-ref"
+name = "cmd"
 version = "0.1.0"
 edition = "2021"
 
